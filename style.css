@@ -21,9 +21,7 @@ body {
   font-family: var(--font);
 }
 
-/* ---------------------------------------------------
-   HEADER — flush edge-to-edge + sticky like Flipkart
---------------------------------------------------- */
+
 header {
   position: sticky;
   top: 0;
@@ -655,20 +653,4 @@ header.is-scrolled {
 }
 
 
-@media (max-width: 768px) {
-  .site-footer-top {
-    flex-direction: column;
-    gap: 30px;
-  }
-  .site-footer-contact {
-    border-left: none;
-    padding-left: 0;
-  }
-  .site-footer-address {
-    padding-left: 0;
-  }
-  .site-footer-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
+
